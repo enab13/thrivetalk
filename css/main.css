@@ -1,0 +1,96 @@
+body {
+    color: #22356F;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: normal;
+    font-style: normal;
+    /* line-height: 1.2em; */
+    font-family: 'Larsseit', sans-serif;
+}
+
+h1, h2, h4 {
+    font-family: 'Larsseit', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #62D0DF;
+    font-weight: 700;
+    letter-spacing: -0.84px;
+}
+
+.contact-btn {
+    background-color: #62D0DF;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 30px;
+    border-radius: 50px;
+}
+
+
+.thrivetalk__background {
+    background-color: #F4F9E2;
+    /* width: 1200px; */
+}
+
+
+.thrivetalk__name {
+    color: #62D0DF;
+    letter-spacing: -0.84px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.thrivetalk__title {
+    width: 40%;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1.68px;
+    margin-bottom: 75px;
+}
+
+.thrivetalk__description {
+    width: 40%;
+    font-weight: 300;
+    line-height: 200%;
+    margin-bottom: 65px;
+}
+
+.thrivetalk__buttons {
+    font-size: 16px;
+}
+
+.thrivetalk__btn-who {
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #F9B640;
+    padding: 20px 30px;
+}
+
+.thrivetalk__btn-who:hover {
+    color: #F9B640;
+    background-color: #fff;
+    outline: solid;
+}
+
+.thrivetalk__btn-what {
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F9B640;
+    padding: 20px 30px;
+}
+
+.thrivetalk__btn-what:hover {
+    color: #fff;
+    background-color: #F9B640;
+}
