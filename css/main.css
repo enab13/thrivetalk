@@ -4,8 +4,12 @@ body {
     font-size: 24px;
     line-height: normal;
     font-style: normal;
-    /* line-height: 1.2em; */
     font-family: 'Larsseit', sans-serif;
+}
+
+header {
+    position: relative;
+    overflow: hidden;
 }
 
 h1, h2, h4 {
@@ -14,8 +18,20 @@ h1, h2, h4 {
 
 .container {
     width: 1200px;
-    margin: 0 auto;
+    margin: auto;
 }
+
+.btn {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn a {
+    padding: 20px 30px;
+}
+
+/* non reusable components */
 
 .logo {
     color: #62D0DF;
@@ -23,22 +39,85 @@ h1, h2, h4 {
     letter-spacing: -0.84px;
 }
 
+.header__background {
+    position: absolute;
+    background: #F4F9E2;
+    height: 100%;
+    width: 75%;
+    top: 0;
+    z-index: -1;
+}
+
+.header__background-item {
+    width: 807.707px;
+    height: 544.933px;
+    transform: rotate(120deg);
+    border-radius: 312.159px;
+    background: #EDFDFF;
+    position: absolute;
+    top: 5%;
+    left: 70%;
+}
+  
+.header__background-photo {
+    width: 807.707px;
+    height: 544.933px;
+    overflow: hidden;
+    border-radius: 312.159px;
+    transform: rotate(150deg);
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}
+  
+.header__background-personPhoto {
+    width: 100%;
+    transform: rotate(-150deg);
+    position: absolute;
+    top:-25%;
+}
+
+.header__content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding-top: 27px;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__item {
+    font-size: 14px;
+    margin-right: 25px;
+    font-weight: 300;
+}
+
+.menu__item_active a {
+    font-weight: 500;
+    border-bottom: solid 1.5px #22356F;
+}
+
 .contact-btn {
     background-color: #62D0DF;
     color: #fff;
-    text-transform: uppercase;
     font-size: 14px;
-    font-weight: 700;
-    padding: 20px 30px;
     border-radius: 50px;
 }
 
-
-.thrivetalk__background {
-    background-color: #F4F9E2;
-    /* width: 1200px; */
+.contact-btn:hover {
+    background-color: #fff;
+    color: #62D0DF;
+    outline: solid;
 }
 
+.thrivetalk {
+    padding-top: 164px;
+    padding-bottom: 75px;
+}
 
 .thrivetalk__name {
     color: #62D0DF;
@@ -54,6 +133,7 @@ h1, h2, h4 {
     line-height: 120%;
     letter-spacing: -1.68px;
     margin-bottom: 75px;
+    text-transform: uppercase;
 }
 
 .thrivetalk__description {
@@ -63,31 +143,21 @@ h1, h2, h4 {
     margin-bottom: 65px;
 }
 
-.thrivetalk__buttons {
-    font-size: 16px;
-}
-
 .thrivetalk__btn-who {
     letter-spacing: 1.6px;
-    font-weight: 700;
-    text-transform: uppercase;
     color: #fff;
     background-color: #F9B640;
-    padding: 20px 30px;
 }
 
 .thrivetalk__btn-who:hover {
     color: #F9B640;
-    background-color: #fff;
+    background-color: #F4F9E2;
     outline: solid;
 }
 
 .thrivetalk__btn-what {
     letter-spacing: 1.6px;
-    font-weight: 700;
-    text-transform: uppercase;
     color: #F9B640;
-    padding: 20px 30px;
 }
 
 .thrivetalk__btn-what:hover {
